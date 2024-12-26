@@ -27,7 +27,7 @@ import './Home.css'
             <div className="lg:order-last  sm:order-first xs:order-first ">
                 <div className="lg:relative md:relative">
                 <img
-                    src="/src/images/bg-intro-desktop.svg"
+                    src="./src/images/bg-intro-desktop.svg"
                     alt="icon"
                     className="w-full lg:absolute sm:relative xs:relative lg:top-[10px] md:top-24 sm:top-0 xs:top-10"
                 />
@@ -35,7 +35,7 @@ import './Home.css'
                     className="absolute amin lg:top-[-20px] md:top-20 
                                 sm:w-[80%] sm:top-[-25%] sm:left-[50%] sm:translate-x-[-50%]
                                 xs:w-[70%] xs:top-[-18%] xs:left-[50%] xs:translate-x-[-50%] lg:w-full md:w-full  "
-                    src="/src/images/image-mockups.png"
+                    src="./src/images/image-mockups.png"
                     alt="phone"
                 />
                 </div>
@@ -58,7 +58,7 @@ import './Home.css'
                 <div className="lg:text-start md:text-center sm:text-center xs:text-center shadow-sm p-6">
                     <div className="flex lg:justify-start md:justify-center sm:justify-center xs:justify-center ">
                     <img
-                        src="/src/images/icon-online.svg"
+                        src="./src/images/icon-online.svg"
                         alt="icon online"
                     />
                     </div>
@@ -71,7 +71,7 @@ import './Home.css'
                 <div className="lg:text-start md:text-center sm:text-center xs:text-center shadow-sm p-6">
                     <div className="flex lg:justify-start md:justify-center sm:justify-center xs:justify-center ">
                     <img
-                        src="/src/images/icon-budgeting.svg"
+                        src="./src/images/icon-budgeting.svg"
                         alt="icon online"
                     />
                     </div>
@@ -84,7 +84,7 @@ import './Home.css'
                 <div className="lg:text-start md:text-center sm:text-center xs:text-center shadow-sm p-6">
                     <div className="flex lg:justify-start md:justify-center sm:justify-center xs:justify-center ">
                     <img
-                        src="/src/images/icon-onboarding.svg"
+                        src="./src/images/icon-onboarding.svg"
                         alt="icon online"
                     />
                     </div>
@@ -98,7 +98,7 @@ import './Home.css'
                     <div className="lg:text-start md:text-center sm:text-center xs:text-center shadow-sm p-6">
                     <div className="flex lg:justify-start md:justify-center sm:justify-center xs:justify-center ">
                         <img
-                        src="/src/images/icon-api.svg"
+                        src="./src/images/icon-api.svg"
                         alt="icon online"
                         />
                     </div>
@@ -123,7 +123,7 @@ import './Home.css'
                 {/* img one */}
             <div className="shadow-md rounded-md">
 
-                <img src="/src/images/image-currency.jpg" className="rounded-md  lg:h-[181.79px] lg:w-full" alt="money" />
+                <img src="./src/images/image-currency.jpg" className="rounded-md  lg:h-[181.79px] lg:w-full" alt="money" />
 
                 <div className="lg:p-5 md:p-5 sm:p-8 xs:p-8 ">
                 <p className="text-gray-500 text-[13px]">By Claire Robinson</p>
@@ -140,7 +140,7 @@ import './Home.css'
                  {/* img tow */}
             <div className="shadow-md rounded-md">
 
-                <img src="/src/images/image-restaurant.jpg" className="rounded-md lg:h-[181.79px] md:h-[214.41px] w-full" alt="money" />
+                <img src="./src/images/image-restaurant.jpg" className="rounded-md lg:h-[181.79px] md:h-[214.41px] w-full" alt="money" />
 
                 <div className="lg:p-5 md:p-5 sm:p-8 xs:p-8  ">
                 <p className="text-gray-500 text-[13px]">By Wilson Hutton</p>
@@ -158,7 +158,7 @@ import './Home.css'
                  {/* img three */}
             <div className="shadow-md rounded-md">
 
-                <img src="/src/images/image-plane.jpg" className="rounded-md lg:h-[181.79px] md:h-[214.41px] w-full" alt="money" />
+                <img src="./src/images/image-plane.jpg" className="rounded-md lg:h-[181.79px] md:h-[214.41px] w-full" alt="money" />
 
                 <div className="lg:p-5 md:p-5 sm:p-8 xs:p-8 ">
                 <p className="text-gray-500 text-[13px]">By Wilson Hutton</p>
@@ -177,7 +177,7 @@ import './Home.css'
                  {/* img four */}
             <div className="shadow-md rounded-md">
 
-                <img src="/src/images/image-confetti.jpg" className="lg:h-[181.79px] md:h-[214.41px] w-full rounded-md" alt="money" />
+                <img src="./src/images/image-confetti.jpg" className="lg:h-[181.79px] md:h-[214.41px] w-full rounded-md" alt="money" />
 
                 <div className="lg:p-5 md:p-5 sm:p-8 xs:p-8  ">
                 <p className="text-gray-500 text-[13px]">By Claire Robinson</p>
@@ -203,18 +203,18 @@ import './Home.css'
                 <div className="lg:col-span-3 md:col-span-3
                                 sm:col-span-6 xs:col-span-12">
                     <div className="flex justify-center">
-                        <img src="/src/images/logo.svg" className="lg:pb-10 md:pb-10 sm:pb-8 xs:pb-8  text-white " alt="logo" />  
+                        <img src="./src/images/logo.svg" className="lg:pb-10 md:pb-10 sm:pb-8 xs:pb-8  text-white " alt="logo" />  
                     </div>
                     <div className="flex lg:justify-around md:justify-center sm:justify-center xs:justify-center px-2 lg:pb-0 md:pb-0 sm:pb-3 xs:pb-3 ">
-                        <img src="/src/images/icon-facebook.svg"  className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
+                        <img src="./src/images/icon-facebook.svg"  className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
                         hover:text-green-500  duration-300 transition-all  " alt="facebook"/>
-                        <img src="/src/images/icon-youtube.svg"   className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
+                        <img src="./src/images/icon-youtube.svg"   className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
                         hover:text-green-500  duration-300 transition-all  " alt="youtube"/>
-                        <img src="/src/images/icon-twitter.svg"   className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
+                        <img src="./src/images/icon-twitter.svg"   className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
                         hover:text-green-500  duration-300 transition-all  " alt="twitter"/>
-                        <img src="/src/images/icon-pinterest.svg" className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
+                        <img src="./src/images/icon-pinterest.svg" className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
                         hover:text-green-500  duration-300 transition-all  " alt="pinterest"/>
-                        <img src="/src/images/icon-instagram.svg" className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
+                        <img src="./src/images/icon-instagram.svg" className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
                         hover:text-green-500  duration-300 transition-all  " alt="instagram"/>
                     </div>
                 </div>
