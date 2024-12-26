@@ -11,7 +11,7 @@ function Navbar() {
       <nav className="flex rounded-md justify-between z-50 p-2 items-center  lg:w-full sm:w-[99%] bg-white mx-auto text-gray-500 fixed top-0 left-0 right-0 ">
         {/* Logo */}
         <div className="">
-          <a href="#"><img className="ml-12 cursor-pointer" src="/src/images/logo.svg" alt="logo" /></a>
+          <a href="#"><img className="ml-12 cursor-pointer" src="//src/images/logo.svg" alt="logo" /></a>
         </div>
 
         {/* Navigation Links */}

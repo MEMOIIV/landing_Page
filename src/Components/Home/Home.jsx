@@ -1,4 +1,4 @@
-import './Home.css'
+    import './Home.css'
     function Home() {
     return (
         <>
@@ -27,7 +27,7 @@ import './Home.css'
             <div className="lg:order-last  sm:order-first xs:order-first ">
                 <div className="lg:relative md:relative">
                 <img
-                    src="../../../src/images/bg-intro-desktop.svg"
+                    src="./src/images/bg-intro-desktop.svg"
                     alt="icon"
                     className="w-full lg:absolute sm:relative xs:relative lg:top-[10px] md:top-24 sm:top-0 xs:top-10"
                 />
