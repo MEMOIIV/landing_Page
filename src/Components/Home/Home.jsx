@@ -1,5 +1,4 @@
-const { ReactSVG } = await import('react-svg');
-    import './Home.css'
+import './Home.css'
     function Home() {
     return (
         <>
@@ -58,7 +57,7 @@ const { ReactSVG } = await import('react-svg');
                 <div className="grid lg:grid-cols-4 md-:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1 gap-6">
                 <div className="lg:text-start md:text-center sm:text-center xs:text-center shadow-sm p-6">
                     <div className="flex lg:justify-start md:justify-center sm:justify-center xs:justify-center ">
-                    <ReactSVG
+                    <img
                         src="/src/images/icon-online.svg"
                         alt="icon online"
                     />
@@ -71,7 +70,7 @@ const { ReactSVG } = await import('react-svg');
                 </div>
                 <div className="lg:text-start md:text-center sm:text-center xs:text-center shadow-sm p-6">
                     <div className="flex lg:justify-start md:justify-center sm:justify-center xs:justify-center ">
-                    <ReactSVG
+                    <img
                         src="/src/images/icon-budgeting.svg"
                         alt="icon online"
                     />
@@ -84,7 +83,7 @@ const { ReactSVG } = await import('react-svg');
                 </div>
                 <div className="lg:text-start md:text-center sm:text-center xs:text-center shadow-sm p-6">
                     <div className="flex lg:justify-start md:justify-center sm:justify-center xs:justify-center ">
-                    <ReactSVG
+                    <img
                         src="/src/images/icon-onboarding.svg"
                         alt="icon online"
                     />
@@ -98,7 +97,7 @@ const { ReactSVG } = await import('react-svg');
                 <div>
                     <div className="lg:text-start md:text-center sm:text-center xs:text-center shadow-sm p-6">
                     <div className="flex lg:justify-start md:justify-center sm:justify-center xs:justify-center ">
-                        <ReactSVG
+                        <img
                         src="/src/images/icon-api.svg"
                         alt="icon online"
                         />
@@ -204,18 +203,18 @@ const { ReactSVG } = await import('react-svg');
                 <div className="lg:col-span-3 md:col-span-3
                                 sm:col-span-6 xs:col-span-12">
                     <div className="flex justify-center">
-                        <ReactSVG src="/src/images/logo.svg" className="lg:pb-10 md:pb-10 sm:pb-8 xs:pb-8  text-white " alt="logo" />  
+                        <img src="/src/images/logo.svg" className="lg:pb-10 md:pb-10 sm:pb-8 xs:pb-8  text-white " alt="logo" />  
                     </div>
                     <div className="flex lg:justify-around md:justify-center sm:justify-center xs:justify-center px-2 lg:pb-0 md:pb-0 sm:pb-3 xs:pb-3 ">
-                        <ReactSVG src="/src/images/icon-facebook.svg"  className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
+                        <img src="/src/images/icon-facebook.svg"  className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
                         hover:text-green-500  duration-300 transition-all  " alt="facebook"/>
-                        <ReactSVG src="/src/images/icon-youtube.svg"   className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
+                        <img src="/src/images/icon-youtube.svg"   className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
                         hover:text-green-500  duration-300 transition-all  " alt="youtube"/>
-                        <ReactSVG src="/src/images/icon-twitter.svg"   className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
+                        <img src="/src/images/icon-twitter.svg"   className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
                         hover:text-green-500  duration-300 transition-all  " alt="twitter"/>
-                        <ReactSVG src="/src/images/icon-pinterest.svg" className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
+                        <img src="/src/images/icon-pinterest.svg" className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
                         hover:text-green-500  duration-300 transition-all  " alt="pinterest"/>
-                        <ReactSVG src="/src/images/icon-instagram.svg" className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
+                        <img src="/src/images/icon-instagram.svg" className="cursor-pointer mx-0  md:mx-2 sm:mx-2 xs:mx-2 text-gray-100
                         hover:text-green-500  duration-300 transition-all  " alt="instagram"/>
                     </div>
                 </div>
