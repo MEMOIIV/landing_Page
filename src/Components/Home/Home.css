@@ -1,0 +1,36 @@
+ /* Styling for the SVG animation */
+/* .amin {
+    animation: wave infinite ease-in-out;
+  }
+
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg) translateY(0);
+    }
+    25% {
+      transform: rotate(2deg) translateY(-2px);
+    }
+    50% {
+      transform: rotate(0deg) translateY(0);
+    }
+    75% {
+      transform: rotate(-2deg) translateY(2px);
+    }
+    100% {
+      transform: rotate(0deg) translateY(0);
+    }
+  }
+  .waving {
+    animation: wave 2s infinite ease-in-out;
+    transform-origin: center;
+  }
+  .mySvg{
+    width: 500px;
+    height: 300px;
+  } */
+  .CC_icon{
+    transition: all ease-in-out 0.3s;
+  }
+  .C_icon:hover .CC_icon{
+    color: aquamarine ;
+  }
