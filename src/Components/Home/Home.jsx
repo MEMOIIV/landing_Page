@@ -27,15 +27,15 @@ import { ReactSVG } from 'react-svg';
 
             <div className="lg:order-last  sm:order-first xs:order-first ">
                 <div className="lg:relative md:relative">
-                <ReactSVG
+                <img
                     src="/src/images/bg-intro-desktop.svg"
                     alt="icon"
-                    className="w-full lg:absolute sm:relative xs:relative lg:top-[10px] md:top-24 sm:top-0 xs:top-10"
+                    className="w-full lg:absolute sm:relative xs:relative lg:top-[50px] md:top-24 sm:top-0 xs:top-0"
                 />
                 <img
                     className="absolute amin lg:top-[-20px] md:top-20 
                                 sm:w-[80%] sm:top-[-25%] sm:left-[50%] sm:translate-x-[-50%]
-                                xs:w-[70%] xs:top-[-18%] xs:left-[50%] xs:translate-x-[-50%] lg:w-full md:w-full  "
+                                xs:w-[70%] xs:top-[-15%] xs:left-[50%] xs:translate-x-[-50%] lg:w-full md:w-full  "
                     src="/src/images/image-mockups.png"
                     alt="phone"
                 />
